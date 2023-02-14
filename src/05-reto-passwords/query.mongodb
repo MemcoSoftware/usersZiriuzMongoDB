@@ -1,3 +1,0 @@
-use("users_ziriuz")
-
-db.roles.find()

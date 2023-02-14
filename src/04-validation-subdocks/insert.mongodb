@@ -1,6 +1,0 @@
-use("users_ziriuz")
-
-db.roles.insertOne({
-    type: ['cliente', 'analista', 'tecnico', 'coordinador'],
-    permissions: ['ver', 'editar', 'crear', 'borrar']
-})
