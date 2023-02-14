@@ -1,0 +1,6 @@
+use("users_ziriuz")
+
+db.users.insertOne({
+    username: 'admin',
+    password: 'admin123'
+})
